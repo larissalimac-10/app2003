@@ -25,6 +25,8 @@ class _UserSettingsScreenState extends State<UserSettingsScreen> {
     'Alemanha': '🇩🇪',
     'Argentina': '🇦🇷',
     'Reino Unido': '🇬🇧',
+    'México': '🇲🇽',
+    'Uruguai':'🇺🇾',
   
   };
 
@@ -90,7 +92,7 @@ class _UserSettingsScreenState extends State<UserSettingsScreen> {
             SizedBox(height: 10),
             if (_countryEmoji != null)
               Text(
-                'Emoji do País: $_countryEmoji',
+                '$_countryEmoji',
                 style: TextStyle(fontSize: 24),
               ),
             SizedBox(height: 20),

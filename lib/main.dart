@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:app2023/screen/user_settings_screen.dart'; // Importando a tela de configurações
-
+import 'package:app2023/screen/user_settings_screen.dart'; 
 void main() {
   runApp(MyApp());
 }
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.cyan),
       ),
-      home: UserSettingsScreen(),  // Aponta para a tela de configurações
+      home: UserSettingsScreen(), 
     );
   }
 }
