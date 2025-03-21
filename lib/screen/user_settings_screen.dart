@@ -70,7 +70,7 @@ class _UserSettingsScreenState extends State<UserSettingsScreen> {
       appBar: AppBar(title: Text('Perfil do Usuário')),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
-        child: Column(
+        child: Column( 
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             TextField(
